@@ -1,4 +1,5 @@
 // task-1 start here
+
 var burgerPrice = 600;
 
 if (burgerPrice > 500 ){
@@ -7,6 +8,7 @@ if (burgerPrice > 500 ){
     console.log("You have to buy cock by 30 taka");
 }
 // task-2 start here
+
 var bmi = 20;
 
 if(bmi < 18.5){
@@ -42,4 +44,29 @@ else if(studentMarks >= 90 && studentMarks <= 100){
 }
 else{
     console.log("Not a valid Marks")
+}
+// task-4 start here
+
+var myMarks = 81;
+var friendMarks = 70;
+
+if(myMarks > 80){
+    if(friendMarks > 80){
+        console.log("let's go for a lunch");
+    }
+    else if(friendMarks <= 80 && friendMarks >= 60){
+        console.log("good luck next time");
+    }
+    else if(friendMarks < 60 && friendMarks >= 40){
+        console.log("Your massage will stay unseen");
+    }
+    else if(friendMarks < 40){
+        console.log("You are block");
+    }
+    else{
+        console.log("Not a valid Marks");
+    }
+}
+else{
+    console.log("go to home and sleep and act sad");
 }
