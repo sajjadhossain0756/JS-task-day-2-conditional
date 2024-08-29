@@ -86,4 +86,30 @@ else{
 }
 // tarnary operator
  result = num1 > num2 ? console.log(num1 * 2) : console.log(num1 + num2);
+
+// task-6 start here
+
+var ticketPrice = 800;
+var age = 30;
+var isStudent = false;
+
+if(age < 10){
+    console.log("You are our free passanger");
+}
+else if(isStudent){
+    var discount = ticketPrice * 50 / 100;
+    ticketPrice = ticketPrice - discount;
+    console.log(ticketPrice);
+}
+else if(age >= 60){
+    var discount = ticketPrice * 15 / 100;
+    ticketPrice = ticketPrice - discount;
+    console.log(ticketPrice);
+}
+else{
+    ticketPrice = ticketPrice;
+    console.log(ticketPrice);
+}
+
+
  
