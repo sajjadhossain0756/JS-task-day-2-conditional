@@ -70,3 +70,20 @@ if(myMarks > 80){
 else{
     console.log("go to home and sleep and act sad");
 }
+// task-5 start here
+
+var num1 = 20;
+var num2 = 40;
+var result;
+
+if(num1 > num2){
+    result = num1 * 2;
+    console.log(result);
+}
+else{
+    result = num1 + num2;
+    console.log(result);
+}
+// tarnary operator
+ result = num1 > num2 ? console.log(num1 * 2) : console.log(num1 + num2);
+ 
